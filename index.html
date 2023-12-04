@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Q1F.javascript</title>
+</head>
+<body>
+    <div class="template">
+        <!--nakatago until ma meet conditions (This is greeting area)-->
+        <div class="card greeting">
+            <a href="" id="cardGreetX"></a>
+        </div>
+
+        <div class="card">
+            <div class="questions">Questions: </div>
+
+            <div class="questions">Enter your Last Name</div>
+            <input type="text" class="input" id="lastName" placeholder="Enter surname here">
+
+            <div class="questions">Enter your gender</div>
+            <input type="text" class="input" id="gender" placeholder="(M/F)">
+            
+            <div class="questions"> Enter your Civil Status</div>
+            <input type="text" class="input" id="civil" placeholder="(S/M)">
+
+            <div class="questions"> Enter Military Time (0-23)</div>
+            <input type="text" class="input" id="time" placeholder="(0-23)">
+
+        </div>
+
+        <div class="card" id="validator">
+            <div class="questions2" id="surnameChecker">Surname : ❌ </div>
+            <div  class="questions2" id="genderChecker">Gender : ❌</div>
+            <div  class="questions2" id="statusChecker">Civil Status : ❌ </div>
+            <div class="questions2" id="timeChecker">Military Time : ❌</div>
+            <button id="btn">SUBMIT</button>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
